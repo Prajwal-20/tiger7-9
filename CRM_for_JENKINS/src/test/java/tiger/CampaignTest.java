@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class CampaignTest {
 
-	@Test
+	@Test(groups = "Smoke Testing")
 	public void camp() {
 		Reporter.log("created campaign",true);
 	}

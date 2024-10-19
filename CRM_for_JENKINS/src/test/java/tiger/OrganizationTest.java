@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class OrganizationTest {
 
-	@Test
+	@Test(groups = "Regression Testing")
 	public void camp() {
 		Reporter.log("created campaign",true);
 	}
